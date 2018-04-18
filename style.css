@@ -1,0 +1,83 @@
+.container{
+
+			max-width:80%;
+			margin:0 auto;
+}
+
+
+body {
+	
+	/* background-image: -moz-linear-gradient(30deg, $start 0%, $end 100%);*/
+	 /*background:#a6a6a6;*/
+	background:linear-gradient(to right, rgba(0,0,255,0.5), rgba(255,0,0,0.2));
+	font-size:18px;
+	font-family:Georgia, Times, serif;
+	color:red;
+}
+
+p{
+	color: white;
+}
+h1{
+	text-align:center;
+	border-bottom-style:solid;
+	margin: 0 auto;
+	
+}
+
+.quickadd{
+	border-bottom-style:solid;
+	
+}
+
+#QuickAdd{
+	 margin: 8px 8px ;
+}
+
+.quickaddForm{
+				padding: 50px 0;
+    			text-align: center;
+    			background-color: lightblue;
+    			margin-top: 20px;
+    			display:none;
+}
+
+input[type=text] {
+    /*width: %;*/
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*allows you to have focused action on a particular input when clicked on*/
+input[type=text]:focus {
+    border: 3px solid #555;
+    }
+
+.button {
+    padding:16px 32px;
+    outline: none;
+    color:white;
+    background: red;
+    margin: 5px;
+}
+
+.addbook{
+	color:white;
+}
+
+.addbook a{
+	color:red;
+	background-color: yellow;
+	padding:10px;
+	border-radius: 4px;
+	
+}
+.del{
+		color:white;
+		margin-bottom: 20px;
+
+}
